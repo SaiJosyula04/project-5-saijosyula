@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.4">
+  <diagram name="Page-1" id="L8tCf-IlcgtI-Z5pNqtS">
+    <mxGraphModel dx="1603" dy="865" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8mbV9_K3EGw0LwygVr1m-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="80" y="40" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-2" value="&lt;h1 style=&quot;text-align: center; margin-top: 0px;&quot;&gt;Reversi&lt;/h1&gt;&lt;p&gt;+ main(String[])&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="40" width="190" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="480" y="40" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-5" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ReversiView&lt;/h1&gt;&lt;div&gt;extends Application&amp;nbsp;&lt;/div&gt;&lt;div&gt;implements Observer&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="40" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-6" value="Application.launch(ReversiView, args)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="270" y="80" width="210" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-7" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="6iX3SywGQPdWMfkh-0mj-6" target="6iX3SywGQPdWMfkh-0mj-6">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="280" as="sourcePoint" />
+            <mxPoint x="610" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-8" value="Launches" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="50" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.447;exitY=1.003;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="6iX3SywGQPdWMfkh-0mj-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="190" as="sourcePoint" />
+            <mxPoint x="560" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-10" value="Observes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="140" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="470" y="200" width="210" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-12" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&amp;nbsp;ReversiModel&lt;/h1&gt;&lt;p&gt;extends java.util.Observable&amp;nbsp;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ grid: ReversiBoard.Cell[][]&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ turn: ReversiBoard.Cell&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ done: boolean&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ startGame():void&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ doMove(r,c,who):bool&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ makeBoard(): ReversiBoard&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;(setChanged(); notifyObservers)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="200" width="200" height="260" as="geometry" />
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="240" height="220" as="geometry" />
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-14" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;ReversiController&lt;/h1&gt;&lt;p&gt;- theModel: ReversiModel&lt;/p&gt;&lt;p&gt;+ humanTurn(r,c):bool&lt;/p&gt;&lt;p&gt;+ computerTurn():void&lt;/p&gt;&lt;p&gt;+ gameOver():bool&lt;/p&gt;&lt;p&gt;+ winner():Cell&lt;/p&gt;&lt;p&gt;+ score(Cell):int&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="200" width="240" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.005;exitY=0.18;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.148;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6iX3SywGQPdWMfkh-0mj-14" target="6iX3SywGQPdWMfkh-0mj-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="270" as="sourcePoint" />
+            <mxPoint x="420" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-16" value="uses" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="360" y="210" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-17" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="480" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-18" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;ReversiView&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;font style=&quot;font-size: 12px; font-weight: normal;&quot;&gt;&amp;nbsp;- model: ReversiModel&amp;nbsp;&lt;/font&gt;&lt;/h1&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;- controller: ReversiController&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;+ start(Stage):void&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;&quot;&gt;+ update(Observable,o):void&lt;/font&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="480" width="240" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="6iX3SywGQPdWMfkh-0mj-18" target="6iX3SywGQPdWMfkh-0mj-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="175" y="470" as="sourcePoint" />
+            <mxPoint x="225" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-20" value="uses" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="440" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="465" y="520" width="220" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-22" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;ReversiBoard&lt;/span&gt;&lt;/h1&gt;&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;&lt;span style=&quot;font-size: 12px; font-weight: 400;&quot;&gt;implements Serializable&lt;/span&gt;&lt;/h1&gt;&lt;div&gt;&amp;nbsp;+ SIZE: int (=8)&lt;/div&gt;&lt;div&gt;+ enum Cell {E,W,B}&lt;/div&gt;&lt;div&gt;- cells: Cell[][]&lt;/div&gt;&lt;div&gt;+ get(r,c): Cell&lt;/div&gt;&lt;div&gt;+ size(): int&lt;/div&gt;&lt;div&gt;+ count(Cell): int&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="470" y="520" width="210" height="190" as="geometry" />
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-23" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.012;exitY=0.341;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.005;entryY=0.212;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6iX3SywGQPdWMfkh-0mj-18" target="6iX3SywGQPdWMfkh-0mj-21">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="350" y="600" as="sourcePoint" />
+            <mxPoint x="400" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-25" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6iX3SywGQPdWMfkh-0mj-2" target="6iX3SywGQPdWMfkh-0mj-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="105" as="sourcePoint" />
+            <mxPoint x="160" y="55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-27" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="6iX3SywGQPdWMfkh-0mj-5" target="6iX3SywGQPdWMfkh-0mj-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="100" as="sourcePoint" />
+            <mxPoint x="580" y="50" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-28" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.002;exitY=0.202;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.013;entryY=0.19;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6iX3SywGQPdWMfkh-0mj-14" target="6iX3SywGQPdWMfkh-0mj-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="260" as="sourcePoint" />
+            <mxPoint x="320" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-29" value="" style="endArrow=none;html=1;rounded=0;exitX=0.01;exitY=0.154;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.006;entryY=0.154;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6iX3SywGQPdWMfkh-0mj-12" target="6iX3SywGQPdWMfkh-0mj-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="250" as="sourcePoint" />
+            <mxPoint x="580" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-30" value="" style="endArrow=none;html=1;rounded=0;exitX=-0.007;exitY=0.189;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.003;entryY=0.184;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6iX3SywGQPdWMfkh-0mj-18" target="6iX3SywGQPdWMfkh-0mj-18">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="540" as="sourcePoint" />
+            <mxPoint x="210" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iX3SywGQPdWMfkh-0mj-33" value="" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;entryX=1;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="6iX3SywGQPdWMfkh-0mj-22" target="6iX3SywGQPdWMfkh-0mj-22">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="530" y="580" as="sourcePoint" />
+            <mxPoint x="580" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

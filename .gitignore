@@ -1,0 +1,22 @@
+﻿# Java
+*.class
+*.log
+hs_err_pid*
+
+# IDE
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+out/
+bin/
+target/
+build/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# save file
+save_game.dat
